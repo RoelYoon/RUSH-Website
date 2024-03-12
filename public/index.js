@@ -96,7 +96,7 @@ addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 addSprite(960,720,1/25,id,0,-5,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/thesis.png');
 
 //apollo
-addSprite(564,732,1/32,id,0,-25,0,'https://upload.wikimedia.org/wikipedia/commons/1/13/Apollo_4_Launch_-_GPN-2000-000044.jpg');
+addSprite(564,732,1/31,id,0,-23,0,'https://upload.wikimedia.org/wikipedia/commons/1/13/Apollo_4_Launch_-_GPN-2000-000044.jpg');
 
 //scene 3
 sceneYLock.push(false);
