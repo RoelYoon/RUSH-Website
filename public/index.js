@@ -14,6 +14,10 @@ function onPointerMove(event) {
 
 }
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
 function abs(n){
     return n<0?-1*n:n;
 }
