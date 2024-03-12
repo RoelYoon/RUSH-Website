@@ -80,7 +80,7 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
 //scene 1
 sceneYLock.push(false);
 
-addSprite(200,200,1/30,id,0,-10,0,'https://static.thenounproject.com/png/1342601-200.png');
+addSprite(200,200,1/30,id,0,-8,0,'https://static.thenounproject.com/png/1342601-200.png');
 
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
