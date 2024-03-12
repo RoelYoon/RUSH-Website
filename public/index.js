@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from '/threeAddons/controls/OrbitControls.js';
 import { GLTFLoader } from '/threeAddons/loaders/GLTFLoader.js';
+import { Interaction } from 'interaction';
 
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
@@ -24,6 +25,8 @@ const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(sizes.width,sizes.height); 
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.render(scene,camera); 
+
+const interaction = new Interaction(renderer, scene, camera);
 
 //load objects
 let models = [];
@@ -60,6 +63,7 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
     scene.add( gltf.scene );
     })
 }
+//960 x 720
 
 //light
 const titleBackPLight = new THREE.PointLight(0xffffff,5000);
