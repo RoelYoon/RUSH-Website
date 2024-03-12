@@ -75,7 +75,7 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
 
-addModel(id,0,-30,0,3,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
+addModel(id,0,-30,0,3,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://docs.google.com/document/d/1Nw6Z7hcxL_mAxQt1ILiBvgmIji-FTv7d42JROLe_MWE/edit?usp=sharing");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
 
 
 //light
@@ -96,7 +96,7 @@ controls.enableZoom = false;
 controls.target.x=0;controls.target.y=0;controls.target.z=29.99;
 
 //skybox
-const skyBoxInd = 1; //for randomization later when more skyboxes
+const skyBoxInd = getRandomInt(2)+1; //for randomization later when more skyboxes
 scene.background = new THREE.CubeTextureLoader()
 .setPath( `https://roelyoon.github.io/Portfolio/RUSH/Skybox/Set${skyBoxInd}/` )
 .load( [
