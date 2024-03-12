@@ -89,7 +89,28 @@ addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 sceneYLock.push(false);
 id++;
 
-addModel(id,0,-30,0,3,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://docs.google.com/document/d/1Nw6Z7hcxL_mAxQt1ILiBvgmIji-FTv7d42JROLe_MWE/edit?usp=sharing");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
+//title
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t1.png');
+
+//thesis
+addSprite(960,720,1/30,id,0,-10,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/thesis.png');
+
+//scene 3
+sceneYLock.push(false);
+id++;
+
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t2.png');
+
+//scene 4
+sceneYLock.push(false);
+id++;
+
+//scene 5
+sceneYLock.push(false);
+id++;
+
+//citationss
+addModel(id,0,-5,0,3,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://docs.google.com/document/d/1Nw6Z7hcxL_mAxQt1ILiBvgmIji-FTv7d42JROLe_MWE/edit?usp=sharing");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
 
 
 //light
