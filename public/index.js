@@ -79,6 +79,7 @@ addModel(id,0,0,0,1,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf
 
 
 //light
+/*
 const titleBackPLight = new THREE.PointLight(0xffffff,5000);
 const titleTopLight = new THREE.PointLight(0xffffff,50000);
 titleBackPLight.position.set(0,-2,-4); 
@@ -86,6 +87,7 @@ titleTopLight.position.set(0,10,4);
 const hLight = new THREE.HemisphereLight( 0xffffff, 0x080820, 50000);
 const amblight = new THREE.AmbientLight(0xffffff,1);
 scene.add(titleBackPLight,titleTopLight,amblight); 
+*/
 
 const controls = new OrbitControls(camera,canvas);
 controls.enableDamping=true;
