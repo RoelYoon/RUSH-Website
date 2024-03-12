@@ -19,7 +19,6 @@
   "homepage": "https://github.com/RoelYoon/RUSH-Website#readme",
   "dependencies": {
     "express": "^4.18.3",
-    "three": "^0.162.0",
-    "three.interaction": "^0.2.3"
+    "three": "^0.162.0"
   }
 }

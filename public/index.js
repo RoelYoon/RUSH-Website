@@ -1,14 +1,22 @@
 import * as THREE from 'three';
 import { OrbitControls } from '/threeAddons/controls/OrbitControls.js';
 import { GLTFLoader } from '/threeAddons/loaders/GLTFLoader.js';
-import { Interaction } from 'interaction';
 
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
 
+function onPointerMove(event) {
+	// calculate pointer position in normalized device coordinates
+	// (-1 to +1) for both components
+	pointer.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+	pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+}
+
 function abs(n){
     return n<0?-1*n:n;
 }
+
 const scene = new THREE.Scene(); 
 const moveX=80; const moveZ=100;
 const sizes = {
@@ -25,8 +33,6 @@ const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(sizes.width,sizes.height); 
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.render(scene,camera); 
-
-const interaction = new Interaction(renderer, scene, camera);
 
 //load objects
 let models = [];
@@ -141,19 +147,22 @@ window.addEventListener('resize', ()=>{
     camera.updateProjectionMatrix();
     renderer.setSize(sizes.width,sizes.height);
 })
-  window.addEventListener("wheel", function(e) {
-    if(!sceneYLock[curScene]){
-        let isTouchPad = e.wheelDeltaY ? e.wheelDeltaY === -3 * e.deltaY : e.deltaMode === 0
-        //let dY = isTouchPad?e.deltaY : e.wheelDeltaY * (-1); 
-        let d = (Math.abs(e.deltaY)>6 ? (e.deltaY > 0)?6:-6 : e.deltaY)*(isTouchPad?3/4:2); 
-        targetCameraPos.y=camera.position.y;
-        targetOrbitPos.y=controls.target.y; 
-        targetCameraPos.y-=d; 
-        targetOrbitPos.y-=d;
-        lerpFrames=2;
-    }
-    // code to increment object.position.z 
-  }, true);
+
+window.addEventListener("wheel", function(e) {
+if(!sceneYLock[curScene]){
+    let isTouchPad = e.wheelDeltaY ? e.wheelDeltaY === -3 * e.deltaY : e.deltaMode === 0
+    //let dY = isTouchPad?e.deltaY : e.wheelDeltaY * (-1); 
+    let d = (Math.abs(e.deltaY)>6 ? (e.deltaY > 0)?6:-6 : e.deltaY)*(isTouchPad?3/4:2); 
+    targetCameraPos.y=camera.position.y;
+    targetOrbitPos.y=controls.target.y; 
+    targetCameraPos.y-=d; 
+    targetOrbitPos.y-=d;
+    lerpFrames=2;
+}
+// code to increment object.position.z 
+}, true);
+
+window.addEventListener( 'pointermove', onPointerMove );
 
 const loop = ()=>{
     if(lerpFrames>0){
