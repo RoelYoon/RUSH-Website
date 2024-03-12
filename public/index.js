@@ -47,9 +47,9 @@ let modelRotation = [];
 let modelSetRotation = [];
 let anim = [];
 let sceneYLock = [];
-let zero = 8;
+let zero = 0;
 let curScene = zero; 
-let id = zero;
+let id = 0;
 
 function addSprite(ratioWidth,ratioHeight,scaleFactor,id,xOffset,yOffset,zOffset,textureResource){
     const texture = new THREE.TextureLoader().load( textureResource ); 
@@ -76,8 +76,17 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
     scene.add( gltf.scene );
     })
 }
+
+//scene 1
+sceneYLock.push(false);
+id++;
+
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
+
+//scene 2
+sceneYLock.push(false);
+id++;
 
 addModel(id,0,-30,0,3,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://docs.google.com/document/d/1Nw6Z7hcxL_mAxQt1ILiBvgmIji-FTv7d42JROLe_MWE/edit?usp=sharing");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
 
