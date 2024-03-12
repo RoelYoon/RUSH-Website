@@ -93,7 +93,7 @@ id++;
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t1.png');
 
 //thesis
-addSprite(960,720,1/30,id,0,-10,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/thesis.png');
+addSprite(960,720,1/20,id,0,-5,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/thesis.png');
 
 //scene 3
 sceneYLock.push(false);
