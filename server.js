@@ -8,6 +8,9 @@ app.get("/",
 async (req,res)=>{
     await res.sendFile(path.resolve(__dirname,"public","index.html"));
 })
+app.get('/threeAddons/:type/:file', (req, res) => {
+    res.send(path.resolve(__dirname,"node_modules","three","examples","jsm",params["type"],params["file"]));
+  })
 app.all('*',(req,res)=>{
     res.send("<h1>404 boiii</h1>").status(404);
 });

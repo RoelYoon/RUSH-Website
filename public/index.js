@@ -1,6 +1,6 @@
-import * as THREE from '/three/build/three.module.js';
-import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from '/three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'three';
+import { OrbitControls } from 'addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'threeAddons/loaders/GLTFLoader.js';
 
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
