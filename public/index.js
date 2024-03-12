@@ -79,14 +79,14 @@ controls.target.x=0;controls.target.y=0;controls.target.z=29.99;
 //skybox
 const skyBoxInd = 1; //for randomization later when more skyboxes
 scene.background = new THREE.CubeTextureLoader()
-.setPath( 'https://roelyoon.github.io/Portfolio/Textures/Skybox/' )
+.setPath( `https://roelyoon.github.io/RUSH/Skybox/Set${skyBoxInd}/` )
 .load( [
-            `px${skyBoxInd}.png`, //left
-            `nx${skyBoxInd}.png`, //right
-            `py${skyBoxInd}.png`, //top
-            `ny${skyBoxInd}.png`, //down
-            `pz${skyBoxInd}.png`, //center
-            `nz${skyBoxInd}.png` //back
+            `px.png`, //left
+            `nx.png`, //right
+            `py.png`, //top
+            `ny.png`, //down
+            `pz.png`, //center
+            `nz.png` //back
         ] );
 
 //sprite 
