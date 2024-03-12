@@ -75,7 +75,7 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
 
-addModel(id,0,0,0,30,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
+addModel(id,0,0,0,1,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
 
 
 //light
