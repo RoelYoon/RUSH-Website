@@ -1,0 +1,23 @@
+{
+  "name": "rush-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoelYoon/RUSH-Website.git"
+  },
+  "author": "Roel Yoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoelYoon/RUSH-Website/issues"
+  },
+  "homepage": "https://github.com/RoelYoon/RUSH-Website#readme",
+  "dependencies": {
+    "three": "^0.162.0"
+  }
+}

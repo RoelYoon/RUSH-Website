@@ -1,0 +1,42 @@
+body > *{
+    position: relative;
+    z-index: 2;
+    color: white;
+    overscroll-behavior: none;
+}
+h1{
+    text-align: center;
+    color: Orange;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+}
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+#leftArrow{
+    top:20%;
+    transform: scale(0.2);
+    position:absolute;
+    left:-200px;
+    opacity:50%;
+}
+#rightArrow{
+    top:20%;
+    transform: scale(0.2);
+    position: absolute;
+    right:-200px;
+    opacity:50%;
+}
+.sprites{
+    background-color:transparent; 
+    border: 0px;
+}
