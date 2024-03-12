@@ -79,7 +79,6 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
 
 //scene 1
 sceneYLock.push(false);
-id++;
 
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
