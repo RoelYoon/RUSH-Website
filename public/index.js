@@ -25,8 +25,6 @@ renderer.setSize(sizes.width,sizes.height);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.render(scene,camera); 
 
-const interaction = new Interaction(renderer, scene, camera);
-
 //load objects
 let models = [];
 let modelRotation = [];
