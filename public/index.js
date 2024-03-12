@@ -105,7 +105,7 @@ addSprite(551,362,1/30,id,0,-20,0,'https://glikennedy.weebly.com/uploads/1/3/2/0
 sceneYLock.push(false);
 id++;
 
-addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t2.png');
+addSprite(960,720,1/22,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t2.png');
 
 //scene 4
 sceneYLock.push(false);
