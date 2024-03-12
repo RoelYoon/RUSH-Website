@@ -100,7 +100,7 @@ controls.enableZoom = false;
 controls.target.x=0;controls.target.y=0;controls.target.z=29.99;
 
 //skybox
-const skyBoxInd = getRandomInt(3); //for randomization later when more skyboxes
+const skyBoxInd = getRandomInt(2); //for randomization later when more skyboxes
 scene.background = new THREE.CubeTextureLoader()
 .setPath( `https://roelyoon.github.io/Portfolio/RUSH/Skybox/Set${skyBoxInd}/` )
 .load( [
@@ -125,7 +125,7 @@ scene.add( rightArrow );*/
 const targetCameraPos = new THREE.Vector3( 0, 0, 30 );
 const targetOrbitPos = new THREE.Vector3( 0, 0, 29.99 );
 let lerpFrames = 0;
-function leftArrClick(){
+function moveLeft(){
     if(curScene!=0){
         curScene--;
         targetCameraPos.x-=moveX; 
@@ -137,7 +137,7 @@ function leftArrClick(){
         lerpFrames=60;
     }
 }
-function rightArrClick(){
+function moveRight(){
     if(curScene!=id){
         curScene++;
         targetCameraPos.x+=moveX;
@@ -148,6 +148,12 @@ function rightArrClick(){
         targetOrbitPos.z+=curScene<=zero?moveZ*-1:moveZ;
         lerpFrames=60;
     }
+}
+function leftArrClick(){
+    moveLeft();
+}
+function rightArrClick(){
+    moveRight();
 }
 
 document.getElementById("leftArrow").onclick = leftArrClick;
