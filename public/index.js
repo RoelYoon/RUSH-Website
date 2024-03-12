@@ -100,7 +100,7 @@ controls.enableZoom = false;
 controls.target.x=0;controls.target.y=0;controls.target.z=29.99;
 
 //skybox
-const skyBoxInd = Math.getRandomInt(2)+1; //for randomization later when more skyboxes
+const skyBoxInd = getRandomInt(2)+1; //for randomization later when more skyboxes
 scene.background = new THREE.CubeTextureLoader()
 .setPath( `https://roelyoon.github.io/Portfolio/RUSH/Skybox/Set${skyBoxInd}/` )
 .load( [
