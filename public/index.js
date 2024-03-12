@@ -132,6 +132,8 @@ scene.add( rightArrow );*/
 //functions
 const targetCameraPos = new THREE.Vector3( 0, 0, 30 );
 const targetOrbitPos = new THREE.Vector3( 0, 0, 29.99 );
+let leftArrow = document.getElementById("leftArrow");
+let rightArrow = document.getElementById("rightArrow");
 let lerpFrames = 0;
 function moveLeft(){
     if(curScene!=0){
@@ -142,7 +144,11 @@ function moveLeft(){
         targetOrbitPos.x-=moveX; 
         targetOrbitPos.y = 0;
         targetOrbitPos.z+=curScene<zero?moveZ:moveZ*-1;
+        rightArrow.hidden=false;
         lerpFrames=60;
+        if(curScene==0){
+            leftArrow.hidden=true;
+        }
     }
 }
 function moveRight(){
@@ -154,7 +160,11 @@ function moveRight(){
         targetOrbitPos.x+=moveX;
         targetOrbitPos.y = 0;
         targetOrbitPos.z+=curScene<=zero?moveZ*-1:moveZ;
+        leftArrow.hidden=false;
         lerpFrames=60;
+        if(curScene==id){
+            rightArrow.hidden=true;
+        }
     }
 }
 function leftArrClick(){
@@ -164,8 +174,9 @@ function rightArrClick(){
     moveRight();
 }
 
-document.getElementById("leftArrow").onclick = leftArrClick;
-document.getElementById("rightArrow").onclick = rightArrClick;
+leftArrow.onclick = leftArrClick;
+rightArrow.onclick = rightArrClick;
+leftArrow.hidden = true;
 
 window.addEventListener('resize', ()=>{
     sizes.width = window.innerWidth;
