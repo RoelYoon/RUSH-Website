@@ -33,6 +33,7 @@ let anim = [];
 let sceneYLock = [];
 let zero = 8;
 let curScene = zero; 
+let id = 0;
 
 function addSprite(ratioWidth,ratioHeight,scaleFactor,id,xOffset,yOffset,zOffset,textureResource){
     const texture = new THREE.TextureLoader().load( textureResource ); 
