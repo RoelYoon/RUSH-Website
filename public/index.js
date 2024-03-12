@@ -75,7 +75,7 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
 //960 x 720
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
 
-addModel(id,0,0,0,1,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
+addModel(id,0,-30,0,1,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
 
 
 //light
@@ -84,10 +84,10 @@ const titleBackPLight = new THREE.PointLight(0xffffff,5000);
 const titleTopLight = new THREE.PointLight(0xffffff,50000);
 titleBackPLight.position.set(0,-2,-4); 
 titleTopLight.position.set(0,10,4); 
-const hLight = new THREE.HemisphereLight( 0xffffff, 0x080820, 50000);
+const hLight = new THREE.HemisphereLight( 0xffffff, 0x080820, 50000);*/
 const amblight = new THREE.AmbientLight(0xffffff,1);
-scene.add(titleBackPLight,titleTopLight,amblight); 
-*/
+scene.add(amblight); 
+
 
 const controls = new OrbitControls(camera,canvas);
 controls.enableDamping=true;
