@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from '/threeAddons/controls/OrbitControls.js';
 import { GLTFLoader } from '/threeAddons/loaders/GLTFLoader.js';
+import {Interaction} from './interaction.js';
 
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
@@ -34,6 +35,8 @@ renderer.setSize(sizes.width,sizes.height);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.render(scene,camera); 
 
+const interaction = new Interaction(renderer, scene, camera);
+
 //load objects
 let models = [];
 let modelRotation = [];
@@ -42,7 +45,7 @@ let anim = [];
 let sceneYLock = [];
 let zero = 8;
 let curScene = zero; 
-let id = 0;
+let id = zero;
 
 function addSprite(ratioWidth,ratioHeight,scaleFactor,id,xOffset,yOffset,zOffset,textureResource){
     const texture = new THREE.TextureLoader().load( textureResource ); 
@@ -70,6 +73,10 @@ function addModel(id,xOffset,yOffset,zOffset,scaleFactor,rotationAnim,additional
     })
 }
 //960 x 720
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
+
+addModel(id,0,0,0,1/30,new THREE.Vector3(0,0.03,0),function(){},function(gltf){gltf.scene.on('click',function(ev){window.open("https://youtu.be/a9YWQslez_4");});},'https://roelyoon.github.io/Portfolio/3DModels/drive.glb');
+
 
 //light
 const titleBackPLight = new THREE.PointLight(0xffffff,5000);
