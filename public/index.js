@@ -98,7 +98,7 @@ addSprite(960,720,1/25,id,0,-5,0,'https://roelyoon.github.io/Portfolio/RUSH/Text
 //apollo
 //addSprite(564,732,1/31,id,0,-23,0,'https://upload.wikimedia.org/wikipedia/commons/1/13/Apollo_4_Launch_-_GPN-2000-000044.jpg');
 //arms race
-addSprite(651,732,1/30,id,0,-20,0,'https://glikennedy.weebly.com/uploads/1/3/2/0/13201112/6090721.jpg');
+addSprite(551,362,1/30,id,0,-20,0,'https://glikennedy.weebly.com/uploads/1/3/2/0/13201112/6090721.jpg');
 
 
 //scene 3
