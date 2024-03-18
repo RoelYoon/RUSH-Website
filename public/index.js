@@ -133,7 +133,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //solar panel
 y-=13
-addSprite(737,502,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/solar.png');
+addSprite(737,502,1/27,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/solar.png');
 
 //s4
 y-=13
@@ -149,7 +149,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //water and air purifiers
 y-=13
-addSprite(320,286,1/18,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/purifier.png');
+addSprite(320,286,1/16,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/purifier.png');
 
 //s6
 y-=13
