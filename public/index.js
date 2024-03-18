@@ -142,7 +142,7 @@ addSprite(478,385,1/30,id,0,-100,0,'https://spinoff.nasa.gov/sites/default/files
 addSprite(960,720,1/30,id,0,-110,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s6.png');
 
 //Satellites and GPS
-addSprite(478,383,1/30,id,0,-50,0,'https://www.wired.com/images_blogs/thisdayintech/2011/02/gps.jpg');
+addSprite(478,383,1/30,id,0,-120,0,'https://www.wired.com/images_blogs/thisdayintech/2011/02/gps.jpg');
 
 //scene 4
 sceneYLock.push(false);
