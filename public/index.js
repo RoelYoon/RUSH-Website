@@ -120,11 +120,11 @@ addSprite(500,400,1/20,id,0,y,0,'https://ids.si.edu/ids/deliveryService?id=NASM-
 //https://d7fcfvvxwoz9e.cloudfront.net/dom43635/wp-content/uploads/2023/08/Explorer_6_paddles_up.jpg
 
 //s2
-y-=13
+y-=12
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
 
 //icbm
-y-=13
+y-=12
 addSprite(582,722,1/30,id,0,y,0,'https://media.defense.gov/2012/Mar/05/2000172956/2000/2000/0/120305-F-AR054-001.JPG');
 
 //s3
