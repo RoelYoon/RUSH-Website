@@ -133,7 +133,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //solar panel
 y-=20
-addSprite(582,396,1/30,id,0,y,0,'https://media.wired.com/photos/59334c7958b0d64bb35d4d8e/master/w_1600%2Cc_limit/explorer6.gif');
+addSprite(275,183,1/15,id,0,y,0,'https://solargaps.com/wp-content/uploads/2018/12/first-silicon.jpg');
 
 //s4
 y-=20
@@ -149,7 +149,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //water and air purifiers
 y-=20
-addSprite(478,385,1/30,id,0,y,0,'https://spinoff.nasa.gov/sites/default/files/styles/nasa_image_default_thumbnail/public/2021-08/Air_Purifiers_1_web_0.png');
+addSprite(320,286,1/20,id,0,y,0,'https://www.nasa.gov/wp-content/uploads/2023/02/edu_srch_edc_water_filtration_eg.png');
 
 //s6
 y-=20
@@ -157,7 +157,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //Satellites and GPS
 y-=13
-addSprite(478,383,1/16,id,0,y,0,'https://www.wired.com/images_blogs/thisdayintech/2011/02/gps.jpg');
+addSprite(478,383,1/18,id,0,y,0,'https://www.wired.com/images_blogs/thisdayintech/2011/02/gps.jpg');
 
 //scene 4
 sceneYLock.push(false);
