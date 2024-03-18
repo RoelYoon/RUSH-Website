@@ -124,7 +124,7 @@ y-=13
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
 
 //icbm
-y-=15
+y-=13
 addSprite(582,722,1/30,id,0,y,0,'https://media.defense.gov/2012/Mar/05/2000172956/2000/2000/0/120305-F-AR054-001.JPG');
 
 //s3
@@ -132,11 +132,11 @@ y-=14
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s3.png');
 
 //solar panel
-y-=20
-addSprite(737,502,1/32,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/solar.png');
+y-=13
+addSprite(737,502,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/solar.png');
 
 //s4
-y-=20
+y-=13
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s4.png');
 
 //digital camera
@@ -148,11 +148,11 @@ y-=13
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s5.png');
 
 //water and air purifiers
-y-=20
-addSprite(320,286,1/20,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/purifier.png');
+y-=13
+addSprite(320,286,1/18,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/purifier.png');
 
 //s6
-y-=20
+y-=13
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s6.png');
 
 //Satellites and GPS
