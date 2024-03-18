@@ -108,6 +108,24 @@ id++;
 //supporting q 1
 addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/title.png');
 
+//s1
+addSprite(960,720,1/30,id,0,-10,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s1.png');
+
+//s2
+addSprite(960,720,1/30,id,0,-20,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
+
+//s3
+addSprite(960,720,1/30,id,0,-30,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s3.png');
+
+//s4
+addSprite(960,720,1/30,id,0,-40,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s4.png');
+
+//s5
+addSprite(960,720,1/30,id,0,-50,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s5.png');
+
+//s6
+addSprite(960,720,1/30,id,0,-60,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s6.png');
+
 //scene 4
 sceneYLock.push(false);
 id++;
