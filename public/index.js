@@ -105,7 +105,7 @@ addSprite(551,362,1/22,id,0,-19,0,'https://glikennedy.weebly.com/uploads/1/3/2/0
 sceneYLock.push(false);
 id++;
 
-y = 0;
+let y = 0;
 
 //supporting q 1
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/title.png');
