@@ -133,7 +133,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //solar panel
 y-=20
-addSprite(582,388,1/27,id,0,y,0,'https://sandiegocountysolar.com/wp-content/uploads/2018/06/solar-panels-history-c.jpg');
+addSprite(737,502,1/32,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/solar.png');
 
 //s4
 y-=20
@@ -149,7 +149,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //water and air purifiers
 y-=20
-addSprite(320,286,1/20,id,0,y,0,'https://www.nasa.gov/wp-content/uploads/2023/02/edu_srch_edc_water_filtration_eg.png');
+addSprite(320,286,1/20,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/purifier.png');
 
 //s6
 y-=20
