@@ -111,20 +111,38 @@ addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 //s1
 addSprite(960,720,1/30,id,0,-10,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s1.png');
 
+//comp
+addSprite(500,400,1/20,id,0,-20,0,'https://ids.si.edu/ids/deliveryService?id=NASM-A19890006000_PS01&max_w=500');
+
 //s2
-addSprite(960,720,1/30,id,0,-20,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
+addSprite(960,720,1/30,id,0,-30,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
+
+//icbm
+addSprite(582,722,1/30,id,0,-40,0,'https://media.defense.gov/2012/Mar/05/2000172956/2000/2000/0/120305-F-AR054-001.JPG');
 
 //s3
-addSprite(960,720,1/30,id,0,-30,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s3.png');
+addSprite(960,720,1/30,id,0,-50,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s3.png');
+
+//solar panel
+addSprite(582,371,1/30,id,0,-60,0,'https://d7fcfvvxwoz9e.cloudfront.net/dom43635/wp-content/uploads/2023/08/Explorer_6_paddles_up.jpg');
 
 //s4
-addSprite(960,720,1/30,id,0,-40,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s4.png');
+addSprite(960,720,1/30,id,0,-70,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s4.png');
+
+//digital camera
+addSprite(582,436,1/30,id,0,-80,0,'https://images.squarespace-cdn.com/content/5104bf8be4b0869f6414bed2/1439954219280-SQTIPJGYGNTWAI2KVKRL/?content-type=image%2Fpng');
 
 //s5
-addSprite(960,720,1/30,id,0,-50,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s5.png');
+addSprite(960,720,1/30,id,0,-90,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s5.png');
+
+//water and air purifiers
+addSprite(478,385,1/30,id,0,-100,0,'https://spinoff.nasa.gov/sites/default/files/styles/nasa_image_default_thumbnail/public/2021-08/Air_Purifiers_1_web_0.png');
 
 //s6
-addSprite(960,720,1/30,id,0,-60,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s6.png');
+addSprite(960,720,1/30,id,0,-110,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s6.png');
+
+//Satellites and GPS
+addSprite(478,383,1/30,id,0,-50,0,'https://www.wired.com/images_blogs/thisdayintech/2011/02/gps.jpg');
 
 //scene 4
 sceneYLock.push(false);
