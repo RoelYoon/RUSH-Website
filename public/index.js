@@ -83,17 +83,17 @@ sceneYLock.push(false);
 addSprite(200,200,1/30,id,0,-8,0,'https://static.thenounproject.com/png/1342601-200.png');
 
 //960 x 720
-addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/q1.png');
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 1/title.png');
 
 //scene 2
 sceneYLock.push(false);
 id++;
 
 //title
-addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t1.png');
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 2/title.png');
 
 //thesis
-addSprite(960,720,1/25,id,0,-5,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/thesis.png');
+addSprite(960,720,1/25,id,0,-5,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 2/s1.png');
 
 //apollo
 //addSprite(564,732,1/31,id,0,-23,0,'https://upload.wikimedia.org/wikipedia/commons/1/13/Apollo_4_Launch_-_GPN-2000-000044.jpg');
@@ -105,7 +105,8 @@ addSprite(551,362,1/22,id,0,-19,0,'https://glikennedy.weebly.com/uploads/1/3/2/0
 sceneYLock.push(false);
 id++;
 
-addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/t3.png');
+//supporting q 1
+addSprite(960,720,1/30,id,0,0,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/title.png');
 
 //scene 4
 sceneYLock.push(false);
