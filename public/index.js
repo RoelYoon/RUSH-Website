@@ -124,7 +124,7 @@ y-=12
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
 
 //icbm
-y-=15
+y-=14
 addSprite(582,722,1/30,id,0,y,0,'https://media.defense.gov/2012/Mar/05/2000172956/2000/2000/0/120305-F-AR054-001.JPG');
 
 //s3
