@@ -115,12 +115,12 @@ y-=10;
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s1.png');
 
 //comp
-y-=20
+y-=15
 addSprite(500,400,1/20,id,0,y,0,'https://ids.si.edu/ids/deliveryService?id=NASM-A19890006000_PS01&max_w=500');
 //https://d7fcfvvxwoz9e.cloudfront.net/dom43635/wp-content/uploads/2023/08/Explorer_6_paddles_up.jpg
 
 //s2
-y-=10
+y-=15
 addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/Scene 3/s2.png');
 
 //icbm
