@@ -133,7 +133,7 @@ addSprite(960,720,1/30,id,0,y,0,'https://roelyoon.github.io/Portfolio/RUSH/Text/
 
 //solar panel
 y-=20
-addSprite(275,183,1/15,id,0,y,0,'https://solargaps.com/wp-content/uploads/2018/12/first-silicon.jpg');
+addSprite(582,388,1/27,id,0,y,0,'https://sandiegocountysolar.com/wp-content/uploads/2018/06/solar-panels-history-c.jpg');
 
 //s4
 y-=20
